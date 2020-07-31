@@ -33,7 +33,7 @@ if mode == 'account':
     twitter_ids_filename = 'data/account_'+user+'_data.csv'
     
 start = datetime.datetime(2015, 1, 1)  # year, month, day
-end = datetime.datetime(2015, 10, 5)  # year, month, day
+end = datetime.datetime(2015, 10, 5)   # year, month, day
 
 delay = 10  # time to wait on each page load before reading the page
 
